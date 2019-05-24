@@ -5,5 +5,6 @@ co:
       gateway:
         principals:
           - id: "APP"
+            name: "手机端"
             secret: "123"
             owner: "client-app"
