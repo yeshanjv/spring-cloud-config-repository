@@ -1,0 +1,15 @@
+# web-editor 管理员相关信息
+co:
+  spring:
+    cloud:
+      gateway:
+        users:
+        - name: "http-bin"
+          password: "202cb962ac59075b964b07152d234b70"
+          user-type: "server"
+        - name: "app"
+          password: "202cb962ac59075b964b07152d234b70"
+          user-type: "client"
+        - name: "baidu"
+          password: "202cb962ac59075b964b07152d234b70"
+          user-type: "server"
