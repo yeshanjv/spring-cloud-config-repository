@@ -1,0 +1,8 @@
+# 定义客户端
+co:
+  spring:
+    cloud:
+      gateway:
+        principals:
+          - id: "APP"
+            secret: "123"
