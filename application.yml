@@ -1,6 +1,6 @@
 spring:
   profiles:
-    include: client,http-bin,web-editor-users,baidu
+    include: client,http-bin,users,baidu
 
 # spring-cloud-config 相关配置
   cloud:
