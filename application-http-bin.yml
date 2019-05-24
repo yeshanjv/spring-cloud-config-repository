@@ -6,11 +6,15 @@ co:
           - id: 5d50b843d00d4d339f5d8ffd60c95b34
             uri: http://httpbin.org
             predicates:
-              - Path=/get
+              - name: "Path"
+                args: 
+                  pattern: "/get"
           - id: 7dad8a95cd9d45c69a9ca356ef06f148
             uri: http://httpbin.org
             predicates:
-              - Path=/anything/**
+              - name: "Path"
+                args: 
+                  pattern: "/anything/**"
             filters:
               - name: CoDefaultAuthentication
               - name: CoDefaultAuthorization
