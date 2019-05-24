@@ -1,7 +1,14 @@
 spring:
   profiles:
     include: client,http-bin
-    
+
+# spring-cloud-config 相关配置
+spring:
+    cloud:
+      config:
+        uri: http://localhost:8888
+
+# 设置端口为 80
 server:
   port: 80
 
