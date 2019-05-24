@@ -6,7 +6,7 @@ server:
   port: 80
 
 
-# 定义客户端
+# 插件相关配置
 co:
   spring:
     cloud:
