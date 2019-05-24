@@ -6,4 +6,4 @@ co:
         principals:
           - id: "APP"
             secret: "123"
-            owner: "APP"
+            owner: "client-app"
