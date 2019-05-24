@@ -1,0 +1,29 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+    gateway:
+      routes:
+        - id: test_id
+          uri: http://www.baidu.com
+          predicates:
+            - Path=/**
+          filters:
+            - name: CoDefaultAuthentication
+            - name: CoDefaultAuthorization
+              args:
+                authorized-principal-set:
+                  - APP
+
+# 定义客户端
+co:
+  spring:
+    cloud:
+      gateway:
+        principals:
+          - id: "APP"
+            secret: "123"
+        # 开启测试支持
+        support-test-stage: true
+server:
+  port: 80
