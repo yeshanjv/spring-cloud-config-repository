@@ -6,7 +6,9 @@ co:
           - id: 6e758e71f1534fd1a1c91b5187a2e091
             uri: http://www.baidu.com
             predicates:
-              - Path=/**
+              - name: Path
+                args:
+                  pattern: "/**"
             filters:
               - name: CoDefaultAuthentication
               - name: CoDefaultAuthorization
