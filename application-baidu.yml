@@ -8,7 +8,7 @@ co:
             predicates:
               - name: Path
                 args:
-                  pattern: "/**"
+                  pattern: "/search/**"
             filters:
               - name: CoDefaultAuthentication
               - name: CoDefaultAuthorization
