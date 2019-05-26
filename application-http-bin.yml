@@ -15,9 +15,9 @@ co:
               - name: "Path"
                 args: 
                   pattern: "/anything/**"
-            filters:
-              - name: CoDefaultAuthentication
-              - name: CoDefaultAuthorization
-                args:
-                  authorized-principal-set:
-                    - APP
+            #filters:
+              #- name: CoDefaultAuthentication
+              #- name: CoDefaultAuthorization
+              #  args:
+              #    authorized-principal-set:
+              #      - APP
