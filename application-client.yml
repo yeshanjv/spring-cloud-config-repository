@@ -1,10 +1,11 @@
-# 定义客户端
 co:
   spring:
     cloud:
       gateway:
         principals:
-          - id: "239b7f7015414154a2fd5d315950731c"
-            name: "手机端"
-            secret: "123"
-            owner: "client-app"
+        - id: "239b7f7015414154a2fd5d315950731c"
+          secret: "263d491eb5f64e9a6448f5c5bc6590AAA"
+          secret-old: "123"
+          secret-old-expire: 1558979734583
+          name: "手机端"
+          owner: "client-app"
