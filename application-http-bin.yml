@@ -15,6 +15,7 @@ co:
                 args:
                   authorized-principal-set:
                     - APP
+                    - 239b7f7015414154a2fd5d315950731c
           - id: 7dad8a95cd9d45c69a9ca356ef06f148
             uri: http://httpbin.org
             predicates:
