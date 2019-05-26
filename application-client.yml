@@ -9,3 +9,9 @@ co:
           secret-old-expire: 1558979734583
           name: "手机端"
           owner: "client-app"
+        - id: "a687b0db06fa4a30957b241885206bea"
+          secret: "263d491eb5f64e9a964548f5c5bc6590A"
+          secret-old: null
+          secret-old-expire: 0
+          name: "网页端"
+          owner: "client-app"
