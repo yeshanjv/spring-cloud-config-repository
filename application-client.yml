@@ -4,7 +4,7 @@ co:
     cloud:
       gateway:
         principals:
-          - id: "APP"
+          - id: "239b7f7015414154a2fd5d315950731c"
             name: "手机端"
             secret: "123"
             owner: "client-app"
