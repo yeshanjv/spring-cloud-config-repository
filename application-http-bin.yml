@@ -12,3 +12,21 @@ co:
             args:
               pattern: "/anything/**"
           filters: []
+        - id: "4df78a6c719f423aa611006921465df6"
+          uri: "http://httpbin.org"
+          name: "httpbin-get"
+          doc-link: "apidoc.speiyou.cn/api/view/withOutDocLink"
+          predicates:
+          - name: "Path"
+            args:
+              pattern: "/get"
+          - name: "Method"
+            args:
+              method: "GET"
+          filters:
+          - name: "CoDefaultAuthentication"
+            args: {}
+          - name: "CoDefaultAuthorization"
+            args:
+              authorized-principal-set:
+              - "a687b0db06fa4a30957b241885206bea"
